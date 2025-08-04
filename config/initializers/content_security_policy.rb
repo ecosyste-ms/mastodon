@@ -6,6 +6,8 @@
 # See the Securing Rails Applications Guide for more information:
 # https://guides.rubyonrails.org/security.html#content-security-policy-header
 
+SecureHeaders::Configuration.default
+
 require_relative '../../app/lib/content_security_policy'
 
 policy = ContentSecurityPolicy.new

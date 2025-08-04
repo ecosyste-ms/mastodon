@@ -13,7 +13,7 @@ gem 'rack', '~> 2.2.7'
 gem 'irb', '~> 1.8'
 
 gem 'haml-rails', '~>2.0'
-gem 'pg', '~> 1.5'
+gem 'pg'
 gem 'pghero'
 gem 'dotenv-rails', '~> 2.8'
 
